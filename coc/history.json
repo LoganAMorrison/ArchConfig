@@ -1,0 +1,17 @@
+{
+  "marketplace": {
+    "%2Fhome%2Flogan%2FProjects%2Fdarksun": [
+      "exp"
+    ]
+  },
+  "commands": {
+    "%2Fhome%2Flogan": [
+      "python.setIn"
+    ]
+  },
+  "lists": {
+    "%2Fhome%2Flogan%2FNextcloud%2FCode%2Fdiffeq": [
+      "mark"
+    ]
+  }
+}

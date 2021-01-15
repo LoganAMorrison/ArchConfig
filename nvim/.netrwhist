@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/logan/Nextcloud/Code/rust/quadpack'
+let g:netrw_dirhist_4='/home/logan/Rust/cyphus-integration'
+let g:netrw_dirhist_3='/home/logan/Rust/cyphus-integration/src'
+let g:netrw_dirhist_2='/home/logan/Rust/cyphus-integration'
+let g:netrw_dirhist_1='/home/logan/Research/full-boltzmann/boltzmann'
+let g:netrw_dirhist_0='/home/logan/Research/full-boltzmann'
+let g:netrw_dirhist_9='/home/logan/Research/GECCO/blackhawk_v1.2/results/MPBH_5e13g'
+let g:netrw_dirhist_8='/home/logan/Research/Haliax/haliax'
+let g:netrw_dirhist_7='/home/logan/Research/Hazma2/hazma2'
+let g:netrw_dirhist_6='/home/logan/Research/full_boltzmann/rust/src/utils'

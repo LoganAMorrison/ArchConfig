@@ -1,0 +1,35 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "rust",
+    "json",
+    "c",
+    "cpp",
+    "julia",
+    "fortran"
+  ],
+  "python.sorImports.path": "isort",
+  "python.formatting.blackArgs": ["--line-length=79"],
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/home/logan/.local/bin/black",
+  "languageserver": {
+    "fortran": {
+      "command": "fortls",
+      "args": ["--lowercase_intrinsics"],
+      "filetypes": ["fortran"],
+      "rootPatterns": [".fortls", ".git/"]
+    },
+    "clangd": {
+      "command": "/usr/bin/clangd",
+      "args": [
+        "--clang-tidy", 
+        "--clang-tidy-checks=*,-fuchsia-*", 
+        "--background-index",
+        "-j=8", 
+        "--fallback-style='llvm'"
+      ],
+      "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+      "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+    }  
+  }
+}
